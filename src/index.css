@@ -1,0 +1,116 @@
+:root {
+  font-family: "Spectral", serif, Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  padding: 0px;
+  color-scheme: light dark;
+  color: #063b59;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+position: fixed;
+z-index: 60;
+width: 100vw;
+background-color: #ffffff ;
+  /* width: 100%; */
+  box-shadow: 0px 0px 20px 0 rgba(92, 91, 91, 0.2);
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  /* margin: 0; */
+  /* display: flex; */
+  /* place-items: center; */
+  /* min-width: 320px; */
+  /* min-height: 100vh; */
+  overflow-x: hidden;
+}
+
+.hero-div {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 100%;
+  height: min-content; /* 696px */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 100px 100px 100px;
+  /* background-color: #9d8189; */
+  overflow: hidden;
+  position: relative;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 40;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.hero-title {
+  flex-shrink: 0;
+
+  height: auto; /* 172px */
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%;
+  overflow: visible;
+  position: relative;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  letter-spacing: 0em;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0px;
+}
+
+.hero-text {
+  font-size: 40px;
+  font-weight: 300;
+  margin: 0px;
+}
+.hero-desc {
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0px;
+  margin-bottom: 30px;
+  width: 600px;
+  text-align: center;
+}
+.hero-button {
+  color: #063b59;
+  background-color: #b7e2ff;
+  border: 0px;
+  padding: 15px 15px 15px 15px;
+  border-radius: 30px;
+  width: 130px;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
