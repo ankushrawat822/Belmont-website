@@ -51,3 +51,86 @@ body {
   overflow-x: hidden;
 }
 
+/* hero cards section  */
+
+.test{
+  height: 100vh;
+}
+
+
+.rr{
+  border: 2px solid red;
+}
+
+.bb{
+  border: 2px solid blue;
+}
+.gg{
+  border: 2px solid green;
+}
+
+.cards-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   flex-direction: row;
+   gap : 30px;
+   padding: 0px 10px;
+   margin-bottom: 50px;
+}
+
+.hero-cards-div{
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 2px;
+   width: 340px;
+   padding: 25px 15px;
+   border-radius: 20px;
+   color : rgb(0, 0, 0);
+}
+
+.hero-card-outter-div-1-bg{
+
+  background: #82ffff;
+  background: radial-gradient(at center, #82ffff91, #ebb9ffc4);
+  
+  }
+
+.hero-card-outter-div-2-bg{
+
+background: #FF99E4;
+background: radial-gradient(at center, #99ffc0ca, #8f45ff31);
+    
+    }
+
+.hero-card-outter-div-3-bg{
+
+background: #fff19965;
+background:   radial-gradient(at center, #fff19976, #ffaad2c1);
+
+}
+
+.hero-card-outter-div-4-bg{
+
+  background: #FFF199;
+  background:   radial-gradient(at center, #ff999982, #e6ffaa7d);
+  
+  }
+
+.hero-card-img-1{
+  width: 280px;
+  height: 180px;
+}
+
+.hero-card-title-1{
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.hero-card-desc-1{
+  font-size: 18px;
+}
